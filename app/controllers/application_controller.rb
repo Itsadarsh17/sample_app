@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
   def hello
-    render text: "hell,world!"
-end
+
+    render html: "hello,world!"
+
+  end
 end
